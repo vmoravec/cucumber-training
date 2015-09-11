@@ -2,8 +2,10 @@
 
 ### Install dependencies
 
-  > zypper install rubygem-cucumber rubygem-cucumber-testsuite rubygem-rspec
+  > zypper install rubygem-cucumber \
+  >                rubygem-cucumber-testsuite \
+  >                rubygem-rspec
 
-### Run
+### Run the test
 
   > cucumber
