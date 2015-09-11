@@ -1,8 +1,5 @@
 require_relative "../../user"
-require "pathname"
-require "ostruct"
+require_relative "user_helpers"
 
-World do
-  OpenStruct.new(user: User.new)
-end
+World(UserHelpers)
 
